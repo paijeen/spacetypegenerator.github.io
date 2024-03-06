@@ -182,8 +182,8 @@ function draw() {
   dropGroup.run();
 
   if(borderWeight > 0){
-    borderWeight -= 0.05;
-    stroke('#5080bf');
+    borderWeight -= 0;
+    stroke(0, 0, 0, 0);
     strokeWeight(borderWeight);
     noFill();
     rectMode(CENTER);
